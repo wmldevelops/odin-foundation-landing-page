@@ -1,0 +1,168 @@
+body {
+    font-family: Roboto, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* GENERAL/UNIVERSAL */
+#header-logo, h1, .header-image, button {
+    color: #f9faf8
+}
+
+.navlink, .hero-second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header, .welcome-area, footer {
+    background: #1f2937;
+}
+
+.header, .welcome-area {
+    display: flex;
+    align-items: space-between;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #1f2937;
+    padding: 8px 36px;
+    cursor: pointer;
+}
+
+
+/* NAV */
+.nav {
+    margin: 0 64px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-logo {
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.navlink {
+    text-decoration: none;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+
+/* WELCOME */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.welcome-text {
+    flex-direction: column;
+    margin:  28px 32px 64px 64px;
+}
+.hero-text {
+    margin-bottom: 8px;
+}
+.hero-second-text {
+    color: #E5E7EB;
+    margin: 0;
+}
+.welcome-image {
+    margin:  64px 64px 64px 32px;
+    height: 280px;
+    width: auto;
+    align-self: flex-start;
+    flex-shrink: auto;
+}
+
+
+/* INFO */
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 32px 64px;
+}
+h2 {
+    align-self: center;
+}
+.info-images {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.info-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-text {
+    width: 150px;
+}
+.thumbnail {
+    border: solid 6px #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+}
+
+/* QUOTE */
+.quote {
+    background-color: #e5e7eb;
+    margin: 64px 0;
+    display: flex;
+}
+figure {
+    margin: 36px;
+}
+blockquote {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 36px;
+}
+
+/* CTA */
+.call-to-action {
+    background-color:  #3882F6;
+    border-radius: 8px;
+    color: #f9faf8;
+    margin: 64px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3 {
+    margin: 0 0 4px 0;
+}
+.cta-text {
+    color: #e5e7eb;
+}
+.cta-signup {
+    border: 2px solid #f9faf8;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 36px 0 ;
+    color: #e5e7eb;
+    flex: 0;
+    display: flex;
+    justify-content: center;
+}
